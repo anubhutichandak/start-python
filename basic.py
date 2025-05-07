@@ -22,28 +22,28 @@
 # print(type(num))
 # var = True
 # print(type(var))
-#print(len(name))
+#print(len(name)) #find the lenght of string
 
 
 # name = "anubhuti" 
 # name_upper = "ANUBHUTI" 
 # print(name.upper()) 
-# print(name_upper.lower()) 
+# print(name_upper.lower()) # convert upper case into lower case
 # print(name.swapcase())
 # print(name.title())
  
- # print(name.replace("anubhuti", "anu"))
+ # print(name.replace("anubhuti", "anu")) #to replace one element to another
  
 # name = "anubhuti"
 # last_name = "chandak"
- # print(name + " " +  last_name)
- # print(name.find("h"))
- # print(name.capitalize())
+ # print(name + " " +  last_name) #adding of string
+ # print(name.find("h")) # finding the particular character
+ # print(name.capitalize()) # capitalize fist letter
  
  # print("My name is ", name, "and my last name is ", last_name) 
  
  
- # print(3 * name)
+ # print(3 * name) #print name 3 times
  
 # print(f"my name is  {name}  and my last name is  {last_name}")
  
@@ -79,7 +79,7 @@
  
  
  # my_list = [1,2,3,4,5,5,54,67,6,55]
- # print(my_list[-1])
+ # print(my_list[-1]) 
  # print(my_list[-2])
  # print(my_list[-3])
  # print(my_list[-4])
@@ -96,36 +96,35 @@
  
  
  # print(my_list[1:5])
- # print(my_list[:5])
- # print(my_list[1:])
- # print(my_list[:])
+ # print(my_list[:5]) # same as [1:5]
+ # print(my_list[1:]) # same as [1:len(list)]
+ # print(my_list[:]) 
  
  
  # print(len(my_list))
  
  
- # my_list.append(100)
+ # my_list.append(100) # add the element
  # print(my_list)
  
  # my_list.insert(1,100)
  # print(my_list)
- # my_list.remove(5)
+ # my_list.remove(5) # remove element
  # print(my_list)
- # my_list.pop()
+ # my_list.pop() #remove radom element
  # print(my_list)
  # my_list.index(5)
  # print(my_list)
  
  # my_num = [5,4,3,2,1]
- # my_num.sort()
- # my_num.clear()
+ # my_num.sort() # sort the list in assending oder
+ # my_num.clear() # clear whole list
  # print(my_num)
- # print(my_num)
  
  
  
  
- # >>>>>>>>>>>>>tuple  and dict , set >>>>>>>>>>>>>>>>>>>>
+ # >>>>>>>>>>>>>tuple >>>>>>>>>>>>>>>>>>>>
  
  
  
@@ -134,23 +133,23 @@
 # print("type of tpl:",type(tpl))
 # print("len  of tpl:",len(tpl))
  
-# print("0 position ka element :-",tpl[0])
-# print("1 position ka element :-",tpl[1])
-# print("2 position ka element :-",tpl[2])
-# print("3 position ka element :-",tpl[3])
-# print("4 position ka element :-",tpl[4])
+# print("0 position of element :-",tpl[0])
+# print("1 position of element :-",tpl[1])
+# print("2 position of element :-",tpl[2])
+# print("3 position of element :-",tpl[3])
+# print("4 position of  element :-",tpl[4])
 
  
  
  
 # tpl = (1,2,3,4,5)
   
-# print("0 to 2  position ka element :-",tpl[0:2])
-# print("1 position ka element :-",tpl[::-1])  
+# print("0 to 2  position of  elements :-",tpl[0:2])
+# print("1 position of elements :-",tpl[::-1])  
  
  
  
-# print("1 position ka element :-",tpl[1:-1])  
+# print("1 position of element :-",tpl[1:-1])  
 # tpl = (1,2,3,4,5)
  
 # print(2 in tpl)
@@ -192,14 +191,11 @@
 # dict['Gender'] = "Female"   # Add new key value pair
 # print(dict)
  
-#  # updating dict 
  
-# dict['age'] = 22
+# dict['age'] = 22 # update age with new value
 # print(dict)
  
- 
-#  # Deleting items 
-# del dict['last_name']
+# del dict['last_name'] # deleting the items
 # print(dict) 
 # dict.pop('last_name')
 # print(dict)
@@ -211,9 +207,8 @@
  
  
  
- # copy 
  
-# dict1 = dict.copy()
+# dict1 = dict.copy() #copydict into dict1
 # print(dict1)
  
 # copy_dict=dict.copy()
@@ -244,23 +239,23 @@
 # key = ["a","b","c"]
 # default_dict=dict.fromkeys(key, 0)
  
- # print(default_dict)   # >>>>>>>>>>>>>.{'a': 0, 'b': 0, 'c': 0}
+ # print(default_dict)   # {'a': 0, 'b': 0, 'c': 0}
  
  
  
  # >>>>>>>>>>>>>>>>>>>> Set >>>>>>>>>>>>>>>>>
  
-# my_set = {1,2,3,4,5,"ritik"}
+# my_set = {1,2,3,4,5,"anu"}
  # print(type(my_set))
  # # print(my_set)
  
  # my_set.add(100)
- # my_set.add("kapil")
- # my_set.add("vijay")
+ # my_set.add("aachal")
+ # my_set.add("arati")
  
  # print(my_set)
  
- # my_set.remove("ritik")
+ # my_set.remove("anu")
  # print("remove element:-",my_set)
  # my_set.discard(5)
  # print("discard element:-",my_set)
