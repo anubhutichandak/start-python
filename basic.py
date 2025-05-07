@@ -340,11 +340,14 @@
 # print(3 not in lst) # if 3 is in list then false if not the true
 
 #>>> identity opreators >>>>
-a = b = [1, 2]
-c = [1, 2]
-print(a is b)     # True
-print(a is c)     # False
-print(a is not c) # True 
+# a = b = [1, 2]
+# c = [1, 2]
+# print(a is b)     # True
+# print(a is c)     # False
+# print(a is not c) # True 
+
+#>>>>>>....loop>>>>>>>>>>
+
 
 
 
