@@ -346,9 +346,3 @@
 # print(a is c)     # False
 # print(a is not c) # True 
 
-#>>>>>>....loop>>>>>>>>>>
-
-
-
-
-
